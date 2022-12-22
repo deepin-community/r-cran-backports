@@ -1,0 +1,125 @@
+r-cran-backports (1.3.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 1.3.0
+  * Run cme, dh-update-R
+
+ -- Nilesh Patra <nilesh@debian.org>  Mon, 01 Nov 2021 21:56:45 +0530
+
+r-cran-backports (1.2.1-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Andreas Tille <tille@debian.org>  Tue, 05 Jan 2021 11:30:26 +0100
+
+r-cran-backports (1.2.0-1) unstable; urgency=medium
+
+  * New upstream version
+  * Standards-Version: 4.5.1 (routine-update)
+
+ -- Andreas Tille <tille@debian.org>  Fri, 20 Nov 2020 11:25:28 +0100
+
+r-cran-backports (1.1.10-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Andreas Tille <tille@debian.org>  Fri, 18 Sep 2020 08:32:03 +0200
+
+r-cran-backports (1.1.9-1) unstable; urgency=medium
+
+  * New upstream version
+  * Set upstream metadata fields: Bug-Submit, Repository.
+
+ -- Andreas Tille <tille@debian.org>  Tue, 01 Sep 2020 16:56:58 +0200
+
+r-cran-backports (1.1.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version
+  * debhelper-compat 13 (routine-update)
+
+ -- Dylan Aïssi <daissi@debian.org>  Mon, 29 Jun 2020 16:30:55 +0200
+
+r-cran-backports (1.1.7-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version
+
+ -- Dylan Aïssi <daissi@debian.org>  Sat, 23 May 2020 09:17:21 +0200
+
+r-cran-backports (1.1.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version
+  * Standards-Version: 4.5.0 (routine-update)
+  * Testsuite: autopkgtest-pkg-r (routine-update)
+  * autopkgtest: s/ADTTMP/AUTOPKGTEST_TMP/g (routine-update)
+  * Add salsa-ci file (routine-update)
+  * Rules-Requires-Root: no (routine-update)
+
+ -- Dylan Aïssi <daissi@debian.org>  Wed, 08 Apr 2020 10:19:25 +0200
+
+r-cran-backports (1.1.5-1) unstable; urgency=medium
+
+  * New upstream version
+  * debhelper-compat 12
+  * Standards-Version: 4.4.1
+  * Trim trailing whitespace.
+  * Set upstream metadata fields: Archive, Bug-Database, Repository.
+
+ -- Andreas Tille <tille@debian.org>  Mon, 07 Oct 2019 09:25:30 +0200
+
+r-cran-backports (1.1.4-1) unstable; urgency=medium
+
+  * New upstream version
+  * debhelper 12
+  * Standards-Version: 4.4.0
+
+ -- Andreas Tille <tille@debian.org>  Wed, 17 Jul 2019 16:58:07 +0200
+
+r-cran-backports (1.1.3-1) unstable; urgency=medium
+
+  * New upstream version
+  * Standards-Version: 4.2.1
+
+ -- Andreas Tille <tille@debian.org>  Mon, 17 Dec 2018 11:17:51 +0100
+
+r-cran-backports (1.1.2-2) unstable; urgency=medium
+
+  * Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-
+    lists.debian.net>
+  * Point Vcs fields to salsa.debian.org
+  * dh-update-R to update Build-Depends
+
+ -- Andreas Tille <tille@debian.org>  Thu, 14 Jun 2018 14:35:00 +0200
+
+r-cran-backports (1.1.2-1) unstable; urgency=medium
+
+  * New upstream version
+  * Standards-Version: 4.1.3
+  * debhelper 11
+
+ -- Andreas Tille <tille@debian.org>  Thu, 15 Mar 2018 09:11:57 +0100
+
+r-cran-backports (1.1.1-1) unstable; urgency=medium
+
+  * New upstream version (now arch any)
+  * Move packaging from SVN to Git
+  * Standards-Version: 4.1.0 (no changes needed)
+
+ -- Andreas Tille <tille@debian.org>  Thu, 28 Sep 2017 17:50:07 +0200
+
+r-cran-backports (1.0.5-1) unstable; urgency=medium
+
+  * New upstream version
+  * Debug line in autopkgtest
+  * Fix Vcs-Svn
+  * Debhelper 10
+
+ -- Andreas Tille <tille@debian.org>  Fri, 20 Jan 2017 09:50:21 +0100
+
+r-cran-backports (1.0.4-1) unstable; urgency=medium
+
+  * Initial release (closes: #842562)
+
+ -- Andreas Tille <tille@debian.org>  Sun, 30 Oct 2016 13:11:48 +0100

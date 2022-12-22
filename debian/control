@@ -1,0 +1,29 @@
+Source: r-cran-backports
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Section: gnu-r
+Testsuite: autopkgtest-pkg-r
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-r,
+               r-base-dev
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-backports
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-backports.git
+Homepage: https://cran.r-project.org/package=backports
+Rules-Requires-Root: no
+
+Package: r-cran-backports
+Architecture: any
+Depends: ${R:Depends},
+         ${shlibs:Depends},
+         ${misc:Depends}
+Recommends: ${R:Recommends}
+Suggests: ${R:Suggests}
+Description: reimplementation of functions introduced since R-3.0.0
+ Implementations of functions which have been introduced in
+ R since version 3.0.0. The backports are conditionally exported which
+ results in R resolving the function names to the version shipped with R (if
+ available) and uses the implemented backports as fallback. This way package
+ developers can make use of the new functions without worrying about the
+ minimum required R version.
